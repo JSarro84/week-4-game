@@ -1,0 +1,88 @@
+h1 {
+	width: 300px;
+	color: white;
+	text-align: center;
+	background-color: orange;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 
+	padding-right: 5px;
+}
+
+body {
+	background-image: url("../images/wallpaper.png");
+}
+
+#rules {
+	color: green;
+	font-weight: bold;
+	background-color: tan;
+	padding: 5px;
+	padding-bottom: 65px;
+	width: 400px;
+}
+
+#random {
+	color: purple;
+	padding-left: 5px;
+	font-size: 25px;
+	background-color: lightgreen;
+	margin-top: 10px;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+
+#score {
+	background-color: turquoise;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 80px;
+	height: 100px;
+	float: left;
+}
+
+.buttons {
+	clear:both;
+	margin-top: 10px;
+	float: left;
+}
+
+#red, #blue, #yellow, #green {
+	align-items: center;
+	float: left;
+	padding:5px;
+	width: 82px;
+	height: 80px;
+	background-color: white;
+	margin-right: 10px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 1px;
+}
+
+#turns {
+	color: white;
+	clear: both;
+	float:left;
+	width: 230px;
+	height: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #4aaaa5;
+	padding-bottom: 5px;
+}
+
+#user {
+	color: white;
+	padding-left: 5px;
+	padding-top: 5px;
+	font-size: 25px;
+	clear: both;
+	float: below;
+	width: 225px;
+	height: 90px;
+	margin-top: 10px;
+	background-color: #4aaaa5;
+}

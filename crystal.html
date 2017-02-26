@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/crystal.css">
+    
+    <meta charset="UTF-8">
+    <title>Crystal Game</title> 
+  </head>
+
+  <body>
+
+  <H1>Crystals Collector!</H1>
+
+ 
+  <div id="rules">
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four cryastals below. By clicking in a crystal you will add a specific amount of points to your total score.</p>
+    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+  </div>
+
+  <div id="random">
+    <p id="goalNum"></p>
+  </div>
+  
+  <div id="score"> 
+    <p>Wins:</p>
+    <p>Losses:</p>
+  </div>
+
+  <div class="buttons">
+    <button class="crystals" id="red">
+      <img src="assets/images/red.png" height="70" width="70">
+    </button>
+
+    <button class="crystals" id="blue">
+      <img src="assets/images/blue.ico" height="70" width="70">
+    </button>
+
+    <button class="crystals" id="yellow">
+      <img src="assets/images/yellow.png" height="70" width="70">
+    </button>
+
+    <button class="crystals" id="green">
+      <img src="assets/images/green.png" height="70" width="70">
+    </button>
+  </div>  
+
+  <div id="turns">
+    <p>Your total score is: </p>
+  </div>
+
+  <div id="user">
+    <div id="totalScore"></div>
+  </div>
+  
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="crystal22.js"></script>
+  </body>
+</html>
